@@ -1,6 +1,5 @@
 (ns gotry.core
-  (:require [cljs.core.async :as async :refer [<! >!]]
-            [cljs.core.async :refer [<! >! chan]]
+  (:require [cljs.core.async :as async :refer [<! >!]]           
             [cljs.nodejs :as nodejs]
             [gotry.macros :refer [gotry]])
   (:require-macros [cljs.core.async.macros :refer [go]]))
