@@ -1,7 +1,7 @@
 (ns gotry.core
   (:require [cljs.core.async :as async :refer [<! >!]]           
             [cljs.nodejs :as nodejs])
-  (:require-macros [cljs.core.async.macros :refer [go]]
+  (:require-macros ;;[cljs.core.async.macros :refer [go]]
                    [gotry.macros :refer [gotry]]))
 
 (nodejs/enable-util-print!)
