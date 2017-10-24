@@ -22,7 +22,7 @@
 
   :min-lein-version "2.5.3"
 
-  :source-paths []
+  :source-paths ["src"]
 
   :clean-targets ^{:protect false} ["dev" "target"]
 
